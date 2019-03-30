@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SSPART Suit]">
+  <test thread-count="5" name="SSPART Test(failed)">
+    <classes>
+      <class name="testNGpackages.Testngclass1">
+        <methods>
+          <include name="tastcase02"/>
+          <include name="afterthetest"/>
+          <include name="tastcase03"/>
+          <include name="beforethetest"/>
+          <include name="beforethemethod"/>
+          <include name="tastcase01"/>
+          <include name="afterthemethod"/>
+        </methods>
+      </class> <!-- testNGpackages.Testngclass1 -->
+    </classes>
+  </test> <!-- SSPART Test(failed) -->
+</suite> <!-- Failed suite [SSPART Suit] -->
